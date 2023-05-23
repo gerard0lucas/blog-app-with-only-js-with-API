@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+    width: 80%;
+    margin: auto;
+}
+.main{
+    display: flex;
+}
+.create input{
+    padding: 3px;
+}
+.del{
+    float: right;
+    padding: 1px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 20px 10px 0;
+}
+.new{
+    margin-top: 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 95%;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.cards{
+    padding:0 30px;
+}
+.card{
+    margin: 8px 0;
+    border: dotted black 2px;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+.title{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.desc{
+    margin: 5px 0;
+}
+.written{
+    display: inline;
+}
+.author{
+    font-size: 17px;
+}
+.create{
+    margin-top: 20px;
+}
