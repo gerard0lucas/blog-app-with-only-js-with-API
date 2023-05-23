@@ -37,9 +37,9 @@
 }
 .card{
     margin: 8px 0;
-    border: dotted black 2px;
+    border: solid black 2px;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 3px;
     
 }
 .title{
